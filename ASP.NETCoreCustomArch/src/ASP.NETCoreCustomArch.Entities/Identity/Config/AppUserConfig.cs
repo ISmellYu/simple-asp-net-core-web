@@ -6,8 +6,8 @@ namespace ASP.NETCoreCustomArch.Entities.Identity.Config;
 
 public class AppUserConfig : IEntityTypeConfiguration<AppUser>
 {
-    public void Configure(EntityTypeBuilder<AppUser> builder)
-    {
-        builder.ToTable("users");
-    }
+	public void Configure(EntityTypeBuilder<AppUser> builder)
+	{
+		builder.ToTable("users");
+	}
 }

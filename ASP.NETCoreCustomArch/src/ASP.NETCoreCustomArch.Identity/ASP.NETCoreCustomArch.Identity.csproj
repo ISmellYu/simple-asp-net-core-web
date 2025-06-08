@@ -7,13 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ASP.NETCoreCustomArch.Database\ASP.NETCoreCustomArch.Database.csproj" />
-      <ProjectReference Include="..\ASP.NETCoreCustomArch.Entities\ASP.NETCoreCustomArch.Entities.csproj" />
+        <ProjectReference Include="..\ASP.NETCoreCustomArch.Database\ASP.NETCoreCustomArch.Database.csproj"/>
+        <ProjectReference Include="..\ASP.NETCoreCustomArch.Entities\ASP.NETCoreCustomArch.Entities.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
-      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.6" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.6"/>
     </ItemGroup>
 
 </Project>

@@ -6,9 +6,8 @@ namespace ASP.NETCoreCustomArch.Entities.Identity.Config;
 
 public class AppUserClaimConfig : IEntityTypeConfiguration<AppUserClaim>
 {
-
-    public void Configure(EntityTypeBuilder<AppUserClaim> builder)
-    {
-        builder.ToTable("userClaims");
-    }
+	public void Configure(EntityTypeBuilder<AppUserClaim> builder)
+	{
+		builder.ToTable("userClaims");
+	}
 }

@@ -7,15 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Ardalis.EFCore.Extensions" Version="1.1.0" />
-      <PackageReference Include="Autofac" Version="6.4.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.6" />
-      <PackageReference Include="SQLite" Version="3.13.0" />
+        <PackageReference Include="Ardalis.EFCore.Extensions" Version="1.1.0"/>
+        <PackageReference Include="Autofac" Version="6.4.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.6"/>
+        <PackageReference Include="SQLite" Version="3.13.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ASP.NETCoreCustomArch.Entities\ASP.NETCoreCustomArch.Entities.csproj" />
+        <ProjectReference Include="..\ASP.NETCoreCustomArch.Entities\ASP.NETCoreCustomArch.Entities.csproj"/>
     </ItemGroup>
 
 </Project>

@@ -6,9 +6,8 @@ namespace ASP.NETCoreCustomArch.Entities.Identity.Config;
 
 public class AppUserLoginConfig : IEntityTypeConfiguration<AppUserLogin>
 {
-
-    public void Configure(EntityTypeBuilder<AppUserLogin> builder)
-    {
-        builder.ToTable("userLogins");
-    }
+	public void Configure(EntityTypeBuilder<AppUserLogin> builder)
+	{
+		builder.ToTable("userLogins");
+	}
 }

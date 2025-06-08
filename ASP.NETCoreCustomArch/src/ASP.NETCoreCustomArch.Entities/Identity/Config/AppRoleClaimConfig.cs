@@ -6,9 +6,8 @@ namespace ASP.NETCoreCustomArch.Entities.Identity.Config;
 
 public class AppRoleClaimConfig : IEntityTypeConfiguration<AppRoleClaim>
 {
-
-    public void Configure(EntityTypeBuilder<AppRoleClaim> builder)
-    {
-        builder.ToTable("roleClaims");
-    }
+	public void Configure(EntityTypeBuilder<AppRoleClaim> builder)
+	{
+		builder.ToTable("roleClaims");
+	}
 }

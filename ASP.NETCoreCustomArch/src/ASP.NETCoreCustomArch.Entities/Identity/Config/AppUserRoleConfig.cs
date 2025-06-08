@@ -6,9 +6,8 @@ namespace ASP.NETCoreCustomArch.Entities.Identity.Config;
 
 public class AppUserRoleConfig : IEntityTypeConfiguration<AppUserRole>
 {
-
-    public void Configure(EntityTypeBuilder<AppUserRole> builder)
-    {
-        builder.ToTable("userRoles");
-    }
+	public void Configure(EntityTypeBuilder<AppUserRole> builder)
+	{
+		builder.ToTable("userRoles");
+	}
 }
